@@ -14,9 +14,9 @@ public class MavenParameterTest {
 		Reporter.log(URL,true);
 		WebDriver driver=new ChromeDriver();
 		driver.get(URL);
-		String EMAIL = System.getProperty("email");
-		String PASSWORD = System.getProperty("password");
-		driver.findElement(By.id("Email")).sendKeys(EMAIL);
-		driver.findElement(By.id("Password")).sendKeys(PASSWORD);		
+//		String EMAIL = System.getProperty("email");
+//		String PASSWORD = System.getProperty("password");
+//		driver.findElement(By.id("Email")).sendKeys(EMAIL);
+//		driver.findElement(By.id("Password")).sendKeys(PASSWORD);		
 	}
 }
