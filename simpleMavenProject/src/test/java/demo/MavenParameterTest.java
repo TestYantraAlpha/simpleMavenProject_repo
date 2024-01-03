@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class MavenParameter {
+public class MavenParameterTest {
 	@Test
 	public void recieveData() {
 		Reporter.log("MavenParameter class executed...",true);
