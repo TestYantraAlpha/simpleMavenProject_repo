@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[MavenParameter class executed...]]>
+    </line>
+    <line>
+      <![CDATA[https://demowebshop.tricentis.com/login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-28T14:17:04 IST" name="Surefire suite" finished-at="2023-12-28T14:17:08 IST" duration-ms="3329">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T14:17:04 IST" name="Surefire test" finished-at="2023-12-28T14:17:08 IST" duration-ms="3329">
+      <class name="demo.MavenParameter">
+        <test-method signature="recieveData()[pri:0, instance:demo.MavenParameter@15761df8]" started-at="2023-12-28T14:17:04 IST" name="recieveData" finished-at="2023-12-28T14:17:08 IST" duration-ms="3297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[MavenParameter class executed...]]>
+            </line>
+            <line>
+              <![CDATA[https://demowebshop.tricentis.com/login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- recieveData -->
+      </class> <!-- demo.MavenParameter -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
